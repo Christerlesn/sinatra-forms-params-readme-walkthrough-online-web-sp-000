@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/' do
-    "Welcome tp the Homepage"
+    "Welcome to the Homepage"
   end
 
   get '/food_form' do
